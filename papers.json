@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T11:04:59+00:00",
+  "generatedAt": "2026-06-11T11:56:52+00:00",
   "source": "https://export.arxiv.org/api/query",
   "days": 14,
   "categories": [
@@ -14,6 +14,12 @@
     "q-bio.QM",
     "stat.ML"
   ],
+  "topicQueries": {
+    "topic:weather-forecasting": "all:\"weather forecasting\" OR all:\"weather forecast\" OR all:\"numerical weather prediction\"",
+    "topic:microclimate-modelling": "all:\"microclimate modelling\" OR all:\"microclimate modeling\" OR all:\"urban microclimate\"",
+    "topic:vision-language": "all:\"vision-language\" OR all:\"vision language\" OR all:\"vision-language model\"",
+    "topic:llm": "all:\"large language model\" OR all:\"LLM\" OR all:\"language model\""
+  },
   "papers": [
     {
       "id": "2606.12412v1",
@@ -32,7 +38,11 @@
       ],
       "primaryCategory": "cs.CV",
       "abstractUrl": "http://arxiv.org/abs/2606.12412v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12412v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12412v1",
+      "matchedTopics": [
+        "topic:vision-language",
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12411v1",
@@ -75,7 +85,10 @@
       ],
       "primaryCategory": "cs.CV",
       "abstractUrl": "http://arxiv.org/abs/2606.12407v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12407v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12407v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12406v1",
@@ -123,7 +136,10 @@
       ],
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.12403v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12403v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12403v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12402v1",
@@ -150,7 +166,11 @@
       ],
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.12402v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12402v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12402v1",
+      "matchedTopics": [
+        "topic:vision-language",
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12400v1",
@@ -172,7 +192,10 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12400v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12400v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12400v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12397v1",
@@ -215,7 +238,10 @@
       ],
       "primaryCategory": "cs.CV",
       "abstractUrl": "http://arxiv.org/abs/2606.12396v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12396v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12396v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12392v1",
@@ -232,7 +258,10 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12392v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12392v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12392v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12387v1",
@@ -251,7 +280,10 @@
       ],
       "primaryCategory": "cs.DB",
       "abstractUrl": "http://arxiv.org/abs/2606.12387v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12387v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12387v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12386v1",
@@ -289,7 +321,10 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12385v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12385v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12385v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12384v1",
@@ -313,7 +348,10 @@
       ],
       "primaryCategory": "cs.LG",
       "abstractUrl": "http://arxiv.org/abs/2606.12384v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12384v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12384v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12382v1",
@@ -394,7 +432,10 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12373v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12373v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12373v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12372v1",
@@ -468,7 +509,31 @@
       ],
       "primaryCategory": "cs.LG",
       "abstractUrl": "http://arxiv.org/abs/2606.12370v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12370v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12370v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
+    },
+    {
+      "id": "2606.12369v1",
+      "title": "Should LLM Agents Decide in Social Simulations? Comparing Finite-State and LLM-Based Decision Policies",
+      "authors": [
+        "Alejandro Buitrago López",
+        "Javier Pastor-Galindo",
+        "José A. Ruipérez-Valiente"
+      ],
+      "summary": "Large language models (LLMs) are increasingly used as decision-making components in social simulations. This introduces a methodological risk: the simulation may deviate from the explicit behavioral policy defined by the researcher. In online social network (OSN) simulations, action choices shape system dynamics, interaction patterns, and model interpretability. This paper evaluates whether LLM action selectors preserve an interpretable reference policy in an OSN simulation. The reference is a finite state machine implemented as a first-order Markov model, with transition probabilities depending on the user type. The evaluation uses a synthetic network with 1,000 agents and 10,000 action decisions. Three open-weight LLMs are tested: LLaMA 3.1, GPT-OSS, and Mistral 24B. Each model is evaluated under three prompting strategies: base, guided, and probabilistic. Alignment is measured using Jensen-Shannon Divergence with Laplace smoothing, and execution time is reported. Results show that LLMs can approximate the reference policy in some configurations, but do not preserve it reliably. Alignment varies across models and prompts, and additional guidance can introduce systematic action biases. Even the best-aligned LLM configurations are several hundred times slower than direct Markov chain sampling. These findings indicate that LLM-based action selection is not a direct replacement for explicit decision policies: it can alter the intended behavior while increasing computational cost.",
+      "published": "2026-06-10T17:35:32Z",
+      "updated": "2026-06-10T17:35:32Z",
+      "categories": [
+        "cs.CY"
+      ],
+      "primaryCategory": "cs.CY",
+      "abstractUrl": "http://arxiv.org/abs/2606.12369v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12369v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12368v1",
@@ -509,7 +574,11 @@
       ],
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.12366v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12366v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12366v1",
+      "matchedTopics": [
+        "topic:vision-language",
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12365v1",
@@ -556,7 +625,10 @@
       ],
       "primaryCategory": "cs.LG",
       "abstractUrl": "http://arxiv.org/abs/2606.12364v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12364v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12364v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12362v1",
@@ -610,7 +682,10 @@
       ],
       "primaryCategory": "cs.LG",
       "abstractUrl": "http://arxiv.org/abs/2606.12360v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12360v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12360v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12352v1",
@@ -631,7 +706,10 @@
       ],
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.12352v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12352v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12352v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12350v1",
@@ -648,7 +726,10 @@
       ],
       "primaryCategory": "cs.AI",
       "abstractUrl": "http://arxiv.org/abs/2606.12350v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12350v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12350v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12349v1",
@@ -781,7 +862,30 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12342v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12342v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12342v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
+    },
+    {
+      "id": "2606.12341v1",
+      "title": "OCELOT: Inference-Leakage Budgets for Privacy-Preserving LLM Agents",
+      "authors": [
+        "Jin Xie",
+        "Songze Li"
+      ],
+      "summary": "Large language model (LLM) agents increasingly act on a user's behalf -- reading personal files, calling tools, transacting with external services -- possibly leaking personally identifiable information (PII) across trust boundaries at every step. Privacy here is a property not of a single output but of an entire trajectory, and three properties make it hard: leakage is cumulative, as individually innocuous releases accumulate across honest-but-curious or colluding sinks into inferences about a protected secret; bidirectional, as a malicious observation can inject instructions that turn the agent's own reasoning model against the user; and task-dependent, as the same field is necessary for one recipient yet gratuitous for another. Per-release contextual-integrity filters, information-flow controls, and posterior-leakage monitors each address part of this but none controls cumulative, inference-based leakage at runtime. We recast agent privacy as \\emph{posterior-risk control} and present OCELOT, a runtime mediator that budgets how much an adversary's belief about a secret may improve across a trajectory, rather than filtering outputs. Its mechanism, \\emph{Witness-Verified Declassification}, separates judgment from trust: an untrusted, locally fine-tuned defender model inspects each candidate release and emits structured evidence -- labeled atoms and proposed declassification operators -- which a deterministic verifier audits, charging a certified min-entropy cost for the chosen variant and authorizing the least-disclosing useful release under a sink-trust-weighted budget recorded on a tamper-evident ledger. Across diverse agent benchmarks and recent defenses, OCELOT attains significantly lower leakage at higher task utility, resists adaptive injection, jailbreak, cumulative inference, and sink collusion, and adds only modest overhead.",
+      "published": "2026-06-10T17:13:35Z",
+      "updated": "2026-06-10T17:13:35Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "primaryCategory": "cs.CR",
+      "abstractUrl": "http://arxiv.org/abs/2606.12341v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12341v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12340v1",
@@ -902,7 +1006,10 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12332v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12332v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12332v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12329v1",
@@ -995,7 +1102,10 @@
       ],
       "primaryCategory": "cs.LG",
       "abstractUrl": "http://arxiv.org/abs/2606.12318v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12318v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12318v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12316v1",
@@ -1068,7 +1178,10 @@
       ],
       "primaryCategory": "cs.CV",
       "abstractUrl": "http://arxiv.org/abs/2606.12300v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12300v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12300v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12299v1",
@@ -1087,7 +1200,11 @@
       ],
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.12299v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12299v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12299v1",
+      "matchedTopics": [
+        "topic:vision-language",
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12295v1",
@@ -1135,7 +1252,34 @@
       ],
       "primaryCategory": "cs.CV",
       "abstractUrl": "http://arxiv.org/abs/2606.12294v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12294v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12294v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
+    },
+    {
+      "id": "2606.12293v1",
+      "title": "LLM-Based Digital Twin Intelligence for Application-Aware Network Selection in 6G Heterogeneous Wireless Networks",
+      "authors": [
+        "Brahim Mefgouda",
+        "Anis Bara",
+        "Lina Bariah",
+        "Hang Zou",
+        "Yuzhi Yang",
+        "Merouane Debbah"
+      ],
+      "summary": "Future 6G heterogeneous wireless networks (HWNs) are expected to support multiple radio access technologies (RATs), dynamic wireless environments, and applications with diverse quality-of-service (QoS) requirements. In such environments, network selection (NS) cannot rely only on instantaneous radio measurements or static ranking rules. Instead, access decisions must account for the evolving wireless state, service intent, packet-level QoS behavior, and candidate-RAT dynamics. This paper proposes a large language model (LLM)-based digital twin (DT) framework for stable, application-aware RAT selection under candidate-set evolution. The main idea is to shift NS from an instantaneous decision-matrix operation to a decision process over an evolving wireless DT state. The constructed DT combines site-specific geometry, Sionna RT-based propagation descriptors, ns-3 packet-level QoS emulation, service context, candidate-RAT information, and decision memory. Rather than acting as a general-purpose controller for 6G networks, the LLM is used for DT-grounded decision intelligence in this specific NS task. On top of this DT, a unified intent agent translates user and service requirements into structured decision priorities for two complementary NS branches: an LLM-assisted multi-attribute decision-making branch (MADM--LLM--NS) and a direct LLM-based ranking branch (LLM--NS). To improve decision stability, the framework further introduces history-aware adaptive normalization (HAAN) and DT-memory-driven retrieval-augmented in-context learning (RA--ICL). Numerical results show that the proposed framework reduces rank-reversal problem and unnecessary handover events, while improving service-aware QoS satisfaction compared with representative MADM-based NS baselines.",
+      "published": "2026-06-10T16:31:02Z",
+      "updated": "2026-06-10T16:31:02Z",
+      "categories": [
+        "eess.SP"
+      ],
+      "primaryCategory": "eess.SP",
+      "abstractUrl": "http://arxiv.org/abs/2606.12293v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12293v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12291v1",
@@ -1172,7 +1316,35 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12291v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12291v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12291v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
+    },
+    {
+      "id": "2606.12290v1",
+      "title": "Selection Integrity for LLM Graph Memory: An Accumulability Criterion for Information-Flow-Blind Retrieval",
+      "authors": [
+        "Zeming Fei",
+        "Hongming Fei",
+        "Xiaoyang Wang",
+        "Yang yang",
+        "Prosanta Gope",
+        "Biplab Sikdar",
+        "Ying Zhang"
+      ],
+      "summary": "Agent memory is moving to graphs, and the provenance defenses now being built for it all check one thing: the provenance of the records an agent retrieves. We show that this entire class of defense is blind by construction. A long-term graph memory runs a global selection step over writable graph structure, so structure that an untrusted principal writes changes \\emph{which} authenticated facts are selected while the cited evidence stays fully authenticated; faithful information-flow control (IFC), checking the provenance of what the reader uses (all of it authenticated), makes the byte-identical decision to no defense at all, across document-QA substrates and real multi-session agent memory. In the most consequential instance, a no-source structural write silently misdirects $28$ irreversible ledger transfers over $499$ live actions: faithful IFC permits every one, and \\authselect\\ prevents every one. We then characterize exactly which memories are exposed: a selector admits the channel when its structural term can reallocate an $Ω(1)$ share of top-$k$ membership past a selected fact's margin. Personalized PageRank can, since a sourceless write reroutes conserved random-walk mass; a content-fixed reranker cannot, and Graphiti's node-distance, which leans on structure \\emph{more} than PageRank does, stays immune. Reallocatability, not reliance, is the predictor. We prove the immune case in general and the open case under a chokepoint condition we verify. Closing the channel forces any provenance defense to recompute selection on the authenticated subgraph, which is what \\authselect\\ does, at zero over-block and $2$--$3\\%$ latency.",
+      "published": "2026-06-10T16:26:46Z",
+      "updated": "2026-06-10T16:26:46Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "primaryCategory": "cs.CR",
+      "abstractUrl": "http://arxiv.org/abs/2606.12290v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12290v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12289v1",
@@ -1375,7 +1547,10 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12273v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12273v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12273v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12268v1",
@@ -1478,7 +1653,11 @@
       ],
       "primaryCategory": "cs.CV",
       "abstractUrl": "http://arxiv.org/abs/2606.12258v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12258v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12258v1",
+      "matchedTopics": [
+        "topic:vision-language",
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12252v1",
@@ -1546,7 +1725,10 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12250v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12250v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12250v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12248v1",
@@ -1587,7 +1769,10 @@
       ],
       "primaryCategory": "cs.CY",
       "abstractUrl": "http://arxiv.org/abs/2606.12247v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12247v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12247v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12245v1",
@@ -1628,7 +1813,10 @@
       ],
       "primaryCategory": "cs.CL",
       "abstractUrl": "http://arxiv.org/abs/2606.12243v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12243v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12243v1",
+      "matchedTopics": [
+        "topic:llm"
+      ]
     },
     {
       "id": "2606.12240v1",
@@ -2114,7 +2302,10 @@
       ],
       "primaryCategory": "cs.CV",
       "abstractUrl": "http://arxiv.org/abs/2606.12169v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12169v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12169v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12165v1",
@@ -2392,7 +2583,10 @@
       ],
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.12109v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12109v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12109v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12108v1",
@@ -2411,6 +2605,32 @@
       "primaryCategory": "math.OC",
       "abstractUrl": "http://arxiv.org/abs/2606.12108v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.12108v1"
+    },
+    {
+      "id": "2606.12106v1",
+      "title": "MSUE: Multi-Modal Soccer Understanding Expert",
+      "authors": [
+        "Litao Li",
+        "Yibo Yu",
+        "Yufeng Hu",
+        "Zhuo Yang",
+        "Jiali Wen",
+        "Yixin Chen",
+        "Yixi Zhou"
+      ],
+      "summary": "This paper presents our solution to the 2026 SoccerNet VQA Challenge. We first develop a cost-effective data synthesis pipeline driven by a Vision-Language Model (VLM), which systematically restructures raw domain data into diverse VQA samples, including concise answers and long-form responses. Second, we propose MSUE, a multi-expert question answering architecture that employs a Large Language Model (LLM) to dynamically dispatch questions to text, image, and video experts. These experts are instantiated as a strong text baseline Gemini3-Flash, a fine-tuned Qwen3-VL, and an external knowledge base, respectively, working collaboratively to enhance VQA performance. MSUE achieves an accuracy of \\textbf{0.95} on the challenge benchmark, securing third place in the leaderboard.",
+      "published": "2026-06-10T14:00:55Z",
+      "updated": "2026-06-10T14:00:55Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.12106v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12106v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12105v1",
@@ -2434,7 +2654,10 @@
       ],
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.12105v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12105v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12105v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12088v1",
@@ -2503,6 +2726,28 @@
       "primaryCategory": "cs.CV",
       "abstractUrl": "http://arxiv.org/abs/2606.12074v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.12074v1"
+    },
+    {
+      "id": "2606.12072v1",
+      "title": "World Model Self-Distillation: Training World Models to Solve General Tasks",
+      "authors": [
+        "Sebastian Stapf",
+        "Pablo Acuaviva Huertos",
+        "Aram Davtyan",
+        "Paolo Favaro"
+      ],
+      "summary": "Pretrained video generators are promising visual world models that exhibit emergent task-solving abilities; however, their reliance on detailed textual descriptions limits their direct use for planning and decision-making. Existing approaches either outsource this reasoning to language or vision-language models, or rely on supervised fine-tuning with paired task-execution videos, which are costly to collect and difficult to scale. We propose a scalable framework that elicits task-solving ability in such models by combining self-distillation with reinforcement learning. Given an unlabeled scene image, a vision-language model generates a candidate task and a detailed step-by-step solution. The solution conditions a pretrained video diffusion model, the Demonstrator; we distill its behavior into an Executor conditioned only on the image and a short task prompt. This transfers execution knowledge from caption-guided generation to instruction-conditioned task solving without curated task-video supervision. We further improve the Executor with reinforcement learning from VLM feedback, exploiting the asymmetry between judging whether a sampled video satisfies a task and generating the solution. Experiments on our proposed WorldTasks-Benchmark and the DreamGen robotics benchmark show that the Executor surpasses the Demonstrator under our VLM-based evaluation protocol and transfers competitively to robotic tasks.",
+      "published": "2026-06-10T13:40:19Z",
+      "updated": "2026-06-10T13:40:19Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.12072v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12072v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12070v1",
@@ -2587,7 +2832,10 @@
       ],
       "primaryCategory": "cs.CV",
       "abstractUrl": "http://arxiv.org/abs/2606.12047v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12047v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12047v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12042v1",
@@ -2626,7 +2874,10 @@
       ],
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.12028v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12028v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.12028v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.12027v1",
@@ -2783,6 +3034,55 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.11949v1"
     },
     {
+      "id": "2606.11925v1",
+      "title": "Corpus Augmentation for Sign Language Translation via LLM-Guided Video Stitching",
+      "authors": [
+        "Zsolt Robotka",
+        "Ádám Rák",
+        "Jalal Al-Afandi",
+        "András Horváth",
+        "György Cserey"
+      ],
+      "summary": "Sign language translation (SLT) converts sign language video into spoken language text and holds significant promise for improving accessibility and enabling communication between signing and non-signing communities. While large weakly-aligned datasets have enabled pre-training at scale and gloss-free methods have reduced reliance on expert annotation, high-quality parallel sign video-text pairs for fine-tuning remain scarce, limiting generalisation on long-tail vocabulary and unseen constructions. We propose a corpus augmentation approach that requires no additional human annotation, external sign-language video corpora, or generative video models, relying only on the existing gloss-annotated training corpus and an LLM for sentence generation: per-gloss clips are extracted from training videos via CTC forced-alignment, novel gloss-sentence pairs are generated by a corpus-anchored LLM, and synthetic sequences are assembled through random sentence sampling and clip assignment. The resulting synthetic RGB video-text pairs are architecture-agnostic at the downstream training stage and can be consumed directly by RGB-based SLT models, or converted into pose or feature representations by pipelines that derive such inputs from video. Sincan et al. re-evaluated five recent gloss-free methods under strictly identical conditions; the largest verified gain over the GFSLT-VLP baseline was only 0.98 BLEU-4. Our augmentation, applied within the same framework, achieves +2.92 BLEU-4 without any change to architecture or training protocol. We further identify that synthetic data harms vision-language pretraining despite improving its objectives, and that optimising clip transitions for visual smoothness is counter-productive under L2-based criteria; we propose that abrupt boundaries may act as a form of implicit regularisation. Code is available at https://github.com/robizso/slt-datagen.",
+      "published": "2026-06-10T10:56:48Z",
+      "updated": "2026-06-10T10:56:48Z",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11925v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11925v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
+    },
+    {
+      "id": "2606.11913v1",
+      "title": "From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations",
+      "authors": [
+        "Yuchen Guan",
+        "Xiao Li",
+        "Zongyu Guo",
+        "Xiaoyi Zhang",
+        "Xiulian Peng",
+        "Chun Yuan",
+        "Yan Lu"
+      ],
+      "summary": "We propose a new paradigm for long video understanding by treating a long video as a Neural Knowledge Representation (NKR). NKR represents video contents neither as a stream of tokens nor pre-organized databases, but as an individual small portion of network weights attached to the VLM backbone. The NKR weights are optimized to encapsulate the video's semantic content via a novel Agentic Knowledge Distillation (AKD) process, where an agent automatically synthesizes dense descriptions and question-answer pairs to distill the video's knowledge into the NKR. While AKD serves as a comprehensive, one-time encoding phase, the resulting NKR transforms the video into a portable, reusable asset. At inference, the lightweight NKR is mounted onto a frozen Vision-Language Model (VLM), enabling direct, query-based understanding without reloading or re-encoding the original video. This approach decouples video length from inference cost, offering high amortized efficiency for multi-turn video understanding. Experiments on the LVBench benchmark show our method achieves performance comparable to state-of-the-art approaches while reducing end-to-end latency by over two orders of magnitude, opening new possibilities for interactive long-video understanding.",
+      "published": "2026-06-10T10:43:35Z",
+      "updated": "2026-06-10T10:43:35Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11913v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11913v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
+    },
+    {
       "id": "2606.11911v1",
       "title": "From Persistence to Survival: Hypothesis Testing, Effect Sizes and Vectorisation for Topological Features",
       "authors": [
@@ -2801,6 +3101,29 @@
       "primaryCategory": "stat.ML",
       "abstractUrl": "http://arxiv.org/abs/2606.11911v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.11911v1"
+    },
+    {
+      "id": "2606.11906v1",
+      "title": "When Does Language Matter? Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models",
+      "authors": [
+        "Xuan Dong",
+        "Zhe Han",
+        "Tianhao Niu",
+        "Qingfu Zhu",
+        "Wanxiang Che"
+      ],
+      "summary": "Vision-Language-Action (VLA) models have shown strong performance in language-conditioned robotic manipulation, yet their robustness to linguistic variation remains poorly understood. In this work, we present the first systematic multilingual evaluation of VLA models by translating the LIBERO benchmark into ten languages, revealing severe performance degradation under non-English instructions, with success rates dropping by 30-50%. Through fine-grained analysis of task executions, we find that language influence is highly non-uniform across steps: certain steps exhibit strong language dependence and dominate overall task failure, while others are largely language-agnostic. Based on this insight, we propose a step-wise inference-time intervention that aligns representations according to step language sensitivity, substantially improving performance under linguistic variation. Our results indicate that language robustness in VLA models is fundamentally a step-wise control problem, highlighting the importance of temporally structured analysis for reliable embodied agents.",
+      "published": "2026-06-10T10:36:20Z",
+      "updated": "2026-06-10T10:36:20Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "primaryCategory": "cs.CL",
+      "abstractUrl": "http://arxiv.org/abs/2606.11906v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11906v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.11901v1",
@@ -2826,7 +3149,10 @@
       ],
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.11901v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.11901v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.11901v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.11891v1",
@@ -2844,6 +3170,27 @@
       "primaryCategory": "cs.RO",
       "abstractUrl": "http://arxiv.org/abs/2606.11891v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.11891v1"
+    },
+    {
+      "id": "2606.11889v1",
+      "title": "Task-Aligned Stability Analysis of Vision-Language Models for Autonomous Driving Hazard Detection",
+      "authors": [
+        "Everett Richards"
+      ],
+      "summary": "Vision-language models (VLMs) are increasingly used for scene understanding in autonomous driving, but robustness analysis often relies on task-agnostic embedding stability alone. We study whether corruption-induced embedding drift predicts changes in a task-aligned hazard score derived from CLIP image-text similarities. Using controlled corruptions on BDD100K road scenes, we compare embedding drift against margin drift, defined as the change in hazard score under perturbation. The relationship is highly corruption-dependent: some families exhibit strong coupling between representation drift and decision drift, while others induce hazardous decision instability despite relatively modest embedding change. Furthermore, corruption families differ in failure direction: most suppress hazard detections via false negatives, while occlusion instead triggers false alarms, suggesting that benchmark design should account for asymmetric failure modes, not just overall instability rates. These results suggest that robustness benchmarks should include task-aligned stability measures in addition to embedding-level perturbation statistics.",
+      "published": "2026-06-10T10:20:14Z",
+      "updated": "2026-06-10T10:20:14Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11889v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11889v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.11876v1",
@@ -2938,6 +3285,30 @@
       "primaryCategory": "cs.DM",
       "abstractUrl": "http://arxiv.org/abs/2606.11852v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.11852v1"
+    },
+    {
+      "id": "2606.11837v1",
+      "title": "LASA: A Weak Supervision Method for Open-Vocabulary Scene Sketch Semantic Segmentation",
+      "authors": [
+        "Liwen Yi",
+        "Xianlin Zhang",
+        "Yue Zhang",
+        "Yue Ming",
+        "Xueming Li"
+      ],
+      "summary": "Open-vocabulary scene sketch semantic segmentation aims to assign dense semantic labels to sparse line drawings based on flexible category vocabularies specified at inference time, without relying on pixel-level annotations during training. Unlike natural images, sketches lack texture and color cues, making semantic understanding heavily dependent on stroke layout and spatial configuration, a challenge that renders single-layer vision-language features inherently unstable. Our key observation is that attention maps from different Vision Transformer layers encode complementary spatial cues: shallow layers capture global structural layouts, while deeper layers focus on local stroke intersections and object parts. This suggests that cross-layer aggregation provides a more robust structural prior than any individual layer alone. Leveraging this insight, we propose a structure-aware framework built upon \\textbf{L}ayer-wise \\textbf{A}ccumulated \\textbf{S}tructural \\textbf{A}ttention (\\textbf{LASA}), which aggregates multi-layer attention to guide hierarchical semantic alignment under weak supervision and refine predictions during inference. Experiments on FS-COCO, SFSD, and FrISS show that LASA improves mIoU by $+3.43$, $+8.01$, and $+15.74$ over the prior weakly supervised baselines, demonstrating consistent gains in both segmentation accuracy and spatial coherence. Our source code will be made publicly available.",
+      "published": "2026-06-10T09:17:36Z",
+      "updated": "2026-06-10T09:17:36Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11837v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11837v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.11820v1",
@@ -3066,7 +3437,60 @@
       ],
       "primaryCategory": "astro-ph.IM",
       "abstractUrl": "http://arxiv.org/abs/2606.11746v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.11746v1"
+      "pdfUrl": "https://arxiv.org/pdf/2606.11746v1",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
+    },
+    {
+      "id": "2606.11745v1",
+      "title": "From Prompts to Tokens: Internalizing Causal Supervision in Vision-Language Model for Multi-Image Causal Reasoning",
+      "authors": [
+        "Haoping Yu",
+        "Yuanxi Li",
+        "Jing Ma"
+      ],
+      "summary": "Visual causal reasoning is essential for understanding and intervening in the physical world, requiring identification of causal variables from visual inputs and reasoning over intervention effects. Despite recent progress, large vision--language models (VLMs) remain brittle at such tasks, especially for interventional and counterfactual queries over multi-image inputs. Most existing explorations inject causal knowledge via textual prompts, leaving causal mechanisms external to model execution and limiting reliable control during inference. To address this problem, we propose BridgeVLM, which internalizes visual causal reasoning by inducing a causal graph from multi-image inputs and converting it into structured Causal Tokens executed by RAMP layers injected into the LLM decoder for causal message passing. We further introduce a unified training interface M3S for fine-grained causal supervision from different granularities (local/global level). BridgeVLM achieves 54.4% accuracy on intervention tasks on CausalVLBench (vs. 33.2% with prompt-level supervision), improves results on Causal3D from 43.6% to 49.0%, and substantially improves causal structure learning on CausalVLBench ($F_1$: 33.4% $\\rightarrow$ 75.1%).",
+      "published": "2026-06-10T07:21:45Z",
+      "updated": "2026-06-10T07:21:45Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11745v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11745v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
+    },
+    {
+      "id": "2606.11743v1",
+      "title": "TacCoRL: Integrating Tactile Feedback into VLA via Simulation",
+      "authors": [
+        "Siyu Ma",
+        "Yuqi Liang",
+        "Chang Yu",
+        "Yunuo Chen",
+        "Hao Su",
+        "Yixin Zhu",
+        "Yin Yang",
+        "Chenfanfu Jiang"
+      ],
+      "summary": "Vision-language-action (VLA) models provide strong visual, language, and action priors for robot manipulation, but visual observations alone often miss the local contact state required for contact-rich tasks. We present TacCoRL, a scalable framework that injects Tactile feedback into VLA policies and improves them through sim-real Co-training and simulation-based reinforcement learning (RL), without requiring large-scale tactile pretraining or extensive real-world contact exploration. The key idea is not only adding touch as an input, but learning how contact readings should modulate action responses in near-failure states that are rare in demonstrations and risky to collect on hardware. We use a real-aligned simulator as a closed-loop training environment for contact interaction. Mixed simulated and real trajectories first warm-start tactile-conditioned actions in the pretrained policy. Reinforcement learning with verifiable task rewards then optimizes the policy using simulated contact rollouts. It reinforces tactile-conditioned actions that lead to task completion, while a supervised objective on real trajectories keeps the refined policy anchored to deployment visual, tactile, and action distributions. The resulting policy transfers directly to the real robot without privileged simulation state or online real-world RL. Across four bimanual contact-rich tasks, the final visuo-tactile policy achieves an average success rate of 72.5%, compared to baseline of 50.0%. Result videos and more details are available at https://tac-corl.github.io/",
+      "published": "2026-06-10T07:20:36Z",
+      "updated": "2026-06-10T07:20:36Z",
+      "categories": [
+        "cs.RO",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.RO",
+      "abstractUrl": "http://arxiv.org/abs/2606.11743v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11743v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.11738v1",
@@ -3154,6 +3578,83 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.11646v1"
     },
     {
+      "id": "2606.11626v1",
+      "title": "Adapting Vision-Language Models from Iconic to Inclusive for Multi-Label Recognition Without Labels",
+      "authors": [
+        "Cheng Chen",
+        "Jingyu Zhou",
+        "Yifan Zhao",
+        "Jia Li"
+      ],
+      "summary": "Understanding multi-label images remains a challenging task in computer vision. With the rapid progress of vision-language multimodal learning, vision-language models (VLMs) enable zero-shot recognition without labeled data. However, due to their intrinsic design, these models often prioritize the most iconic object and omit other contextual positives. This intrinsic bias conflicts with the nature of multi-label learning, thereby limiting their applicability. In this work, we propose an unsupervised framework that adapts VLMs from iconic recognition toward inclusive understanding, enabling label-free multi-label image recognition. Our approach consists of two key stages, ``cutting'' and ``sewing'': In the cutting stage, we present the multi-sampling response estimator to prevent the model from concentrating only on one single object. In the second sewing stage, the multi-object blend adaptation is introduced to adjust the labels to better conform to the multi-label distribution while preserving the intrinsic characteristics of the original model within only one epoch. Extensive experiments show that our framework significantly outperforms existing unsupervised approaches on four public datasets, even surpassing several representative weakly supervised baselines. These results demonstrate the potential of adapting pre-trained VLMs for more comprehensive visual understanding without manual annotations. Our code is publicly available at https://github.com/iCVTEAM/TailorCLIP.",
+      "published": "2026-06-10T03:41:50Z",
+      "updated": "2026-06-10T03:41:50Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11626v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11626v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
+    },
+    {
+      "id": "2606.11618v1",
+      "title": "Vision-Language-Action Models Meet World Models: Embodied Agentic AI for Low-Altitude Wireless Networks",
+      "authors": [
+        "Feibo Jiang",
+        "Li Dong",
+        "Lei Mao",
+        "Kezhi Wang",
+        "Cunhua Pan",
+        "Dong In Kim",
+        "Naofal Al-Dhahir"
+      ],
+      "summary": "Low-Altitude Wireless Networks (LAWNs), composed of Unmanned Aerial Vehicles (UAVs) and other aerial platforms, provide integrated perception, communication, and computation services in low-altitude airspace. However, deploying large generative models in this domain faces three major challenges: 1) Limited embodied action mapping; 2) Inadequate physical environment modeling; 3) Insufficient closed-loop optimization. To address these challenges, this study proposes an Embodied Agentic UAV framework. Centered on a Vision-Language-Action (VLA) model as the execution core, the framework establishes an end-to-end embodied decision-making pipeline from multimodal environmental perception to continuous control generation. In addition, a World Model (WM) is introduced to capture the coupling between UAV actions and environmental state evolution, thereby supporting environment prediction, policy verification, and dynamic optimization. Furthermore, memory and reflection mechanisms are incorporated to form an adaptive closed-loop optimization paradigm of decision, execution, evaluation, and update, thereby enhancing the system's autonomous decision-making capability and continual evolution ability in complex dynamic environments. Experimental results validate its effectiveness in enabling robust, predictive, and sustainable autonomous control in LAWNs.",
+      "published": "2026-06-10T03:30:05Z",
+      "updated": "2026-06-10T03:30:05Z",
+      "categories": [
+        "cs.IT"
+      ],
+      "primaryCategory": "cs.IT",
+      "abstractUrl": "http://arxiv.org/abs/2606.11618v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11618v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
+    },
+    {
+      "id": "2606.11576v1",
+      "title": "AVIS: Adaptive Test-Time Scaling for Vision-Language Models",
+      "authors": [
+        "Ahmadreza Jeddi",
+        "Minh Ngoc Le",
+        "Amirhossein Kazerouni",
+        "Hakki Can Karaimer",
+        "Hue Nguyen",
+        "Iqbal Mohomed",
+        "Michael Brudno",
+        "Alex Levinshtein",
+        "Konstantinos G. Derpanis",
+        "Babak Taati",
+        "Radek Grzeszczuk"
+      ],
+      "summary": "Modern Vision-Language Models (VLMs) benefit from chain-of-thought prompting and test-time scaling, but these gains often come with prohibitive inference cost due to large visual contexts and long decoding chains. We view this cost through two coupled axes: Visual Context Scaling (VCS), which controls how much visual evidence is passed to the language model, and Visual Reasoning Scaling (VRS), which controls how much inference-time reasoning search is performed. Existing methods typically optimize one axis at a time, leaving the joint allocation of compute across these axes underexplored. We introduce Adaptive Visual Inference Scaling (AVIS), a lightweight policy that adapts both VCS and VRS per query. AVIS realizes VCS through Key Diversity Visual (KDV) pruning, a training-free $O(N)$ key-based rule for removing redundant visual tokens before prefilling, and realizes VRS through adaptive self-consistency, using a learned difficulty predictor to select the number of reasoning rollouts. AVIS is deployment-friendly and compatible with shared-prefill inference, where all rollouts reuse a single prefilling pass and KV cache. Across diverse image and video reasoning benchmarks, AVIS improves the accuracy--compute trade-off relative to VCS-only and VRS-only baselines, and remains effective on top of RL post-trained VLMs while keeping compute and latency low.",
+      "published": "2026-06-10T02:06:47Z",
+      "updated": "2026-06-10T02:06:47Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11576v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11576v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
+    },
+    {
       "id": "2606.11574v1",
       "title": "Range-Aware Bayesian Optimization for Discovering Diverse Designs within Target Property Windows",
       "authors": [
@@ -3197,6 +3698,32 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.11570v1"
     },
     {
+      "id": "2606.11568v1",
+      "title": "4DP-QA: Scalable QA for 4D Perception in Vision Language Models",
+      "authors": [
+        "Seokju Cho",
+        "Abhishek Badki",
+        "Hang Su",
+        "Jindong Jiang",
+        "Ziyao Zeng",
+        "Seungryong Kim",
+        "Sifei Liu",
+        "Orazio Gallo"
+      ],
+      "summary": "Despite recent advances, Vision Language Models (VLMs) still struggle to grasp the dynamics of the world. We note that the ability to reason about a 4D scene, challenging in itself, is further complicated by two factors. First, VLMs observe motion indirectly via its projection onto 2D images. Second, existing datasets fail to disentangle object and camera motion. To address these challenges, we present a QA generation pipeline that focuses on motion-related scene understanding. We take particular care of the entanglement of camera and object motion by casting tracking in both the traditional way and in a novel, fixed reference system, dubbed True-Motion Tracking, which provides an intuitive description of motion. From this pipeline, we generate a large-scale training dataset of 400K samples, 4DP-QA (4D Perception QA), and a 2.2K-sample benchmark, 4DP-QA-Bench. Training existing models on our dataset yields performance improvements on an external benchmark, validating the effectiveness of our method.",
+      "published": "2026-06-10T01:49:55Z",
+      "updated": "2026-06-10T01:49:55Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11568v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11568v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
+    },
+    {
       "id": "2606.11566v1",
       "title": "Credit Capacity and the Propagation of Funding Shocks: Evidence from U.S. and Brazilian Financial Intermediaries",
       "authors": [
@@ -3214,6 +3741,28 @@
       "primaryCategory": "econ.GN",
       "abstractUrl": "http://arxiv.org/abs/2606.11566v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.11566v1"
+    },
+    {
+      "id": "2606.11546v1",
+      "title": "VL-DINO: Leveraging CLIP Vision-Language Knowledge for Open-Vocabulary Object Detectio",
+      "authors": [
+        "Hao Zhang",
+        "Qinran Lin",
+        "Linqi Song",
+        "Yong Li"
+      ],
+      "summary": "Vision-language models like CLIP can provide rich semantic priors for open-vocabulary object detection. However, jointly integrating both textual and visual knowledge into detection architectures remains challenging. In this paper, we propose VL-DINO, an open-vocabulary detector that enhances DINO through more effective exploitation of CLIP's vision-language knowledge. Specifically, a Query-guided Positive Sample Construction (QPSC) module is first developed to construct additional high-quality positive samples, enabling the vanilla DINO framework to better accommodate mixed training across heterogeneous data sources while providing more vision-language alignment signals, thereby incorporating richer textual knowledge during training. A Visual Semantic Encoder (VSE) module is then introduced to distill CLIP visual knowledge into backbone-extracted features, producing fused features for subsequent encoder refinement. Based on the fused features, an Object-Region Semantic Alignment (ORSA) module extracts object-centric region features and aligns them with the corresponding textual embeddings, further incorporating textual cues. In the zero-shot setting, VL-DINO-T and VL-DINO-L achieve 36.3 and 38.1 AP on the LVIS benchmark, respectively, consistently outperforming prior advanced approaches. Extensive experiments demonstrate the effectiveness and competitive performance of the proposed design.",
+      "published": "2026-06-10T01:13:49Z",
+      "updated": "2026-06-10T01:13:49Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11546v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11546v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.11538v1",
@@ -3312,6 +3861,28 @@
       "primaryCategory": "cs.LG",
       "abstractUrl": "http://arxiv.org/abs/2606.11508v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.11508v1"
+    },
+    {
+      "id": "2606.11507v1",
+      "title": "SceneMiner: Identity-Preserving Multi-Task Fine-Tuning for Unified BEV Scene Mining",
+      "authors": [
+        "Abdalmalek Aburaddaha",
+        "Venkatraman Narayanan",
+        "Keval Thaker",
+        "Samir A. Rawashdeh"
+      ],
+      "summary": "Mining hard, safety-critical scenes from driving logs is bottlenecked by the absence of difficulty labels, and no single proxy, collision risk, trajectory ambiguity, or semantic rarity suffices to find such scenes on its own. We present SceneMiner, a unified, camera-only bird's-eye-view pipeline that emits complementary mining signals from a frozen vision-language backbone in a single forward pass, with no LiDAR or radar: a retrieval embedding for text-prompted scenario search, a multi-label scene-tag distribution, and a continuous physics-based risk score (a motion forecast is a byproduct, not a contribution). Building such a multi-head model exposes our central finding, a failure mode we term cross-task interference: adding or upgrading one head shifts a shared activation stream and degrades weight-frozen sibling heads, so freezing parameters alone is insufficient. Our contribution, identity-preserving multi-task fine-tuning, removes this interference by zero-initializing every new sub-module and freezing every parameter that feeds the shared stream. The mining heads are thereby preserved bit-identically while training only ~102k parameters. The tagging head reaches mAP 0.4614 (micro-F1 0.5557) on 20 scene tags by pooling each scene into 32 visual tokens, and the embedding head supports text-prompted retrieval, validated qualitatively. Code is available at: https://anonymous.4open.science/r/sceneminer_anonymous-64E5",
+      "published": "2026-06-09T22:59:41Z",
+      "updated": "2026-06-09T22:59:41Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11507v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11507v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.11500v1",
@@ -3418,6 +3989,26 @@
       "primaryCategory": "physics.med-ph",
       "abstractUrl": "http://arxiv.org/abs/2606.11479v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.11479v1"
+    },
+    {
+      "id": "2606.11477v1",
+      "title": "Towards Fully Automated Exam Grading: Fairness-Aware Recognition of Handwritten Answers with Foundation Models",
+      "authors": [
+        "Hartwig Grabowski"
+      ],
+      "summary": "Correcting handwritten exams by hand is time-consuming and error-prone, particularly for large cohorts, while fully digital exams tend to force a didactic narrowing towards closed question formats. A practical middle ground keeps paper-based, problem-oriented tasks but records the assessment-relevant answers as single capital letters in a table that a machine can read. The open question is whether this reading can be made accurate and, above all, fair enough for unsupervised grading. Earlier automated approaches reached only about 88%--91% recognition -- too low -- and failed on the cases that matter most: answers placed outside the cell, crossed out, or written in cursive. We show that general-purpose vision-language foundation models (VLMs), which interpret the page rather than match pixel templates, close this gap. On a benchmark of 61 anonymised exams (3141 answer positions) the best model reaches 98.4% accuracy, well above the previous baseline. Crucially, we centre the evaluation on fairness: we distinguish false negatives (a correct answer marked wrong, which disadvantages the student) from false positives, and a lightweight prompt that supplies the reference solution as context lowers the false-negative rate to 0.58%. Under an exemplary grading scheme only three of the 61 exams would be graded worse, all caught by a student self-review step. Fully automated, fairness-aware exam grading at scale is therefore defensible; we release the anonymised benchmark to support reproducibility.",
+      "published": "2026-06-09T22:12:43Z",
+      "updated": "2026-06-09T22:12:43Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2606.11477v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.11477v1",
+      "matchedTopics": [
+        "topic:vision-language"
+      ]
     },
     {
       "id": "2606.11473v1",
@@ -4342,6 +4933,25 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.09444v1"
     },
     {
+      "id": "2606.09376v1",
+      "title": "Precision Is Not Faithfulness: Coverage-Aware Evaluation of Grounded Generation with a Complete Oracle",
+      "authors": [
+        "Juan S. Santillana"
+      ],
+      "summary": "Reference-free faithfulness metrics verify each atomic claim a model makes against ground truth, and are increasingly used to evaluate grounded generation. We show they share a blind spot: they measure only precision -- are the stated claims supported? -- and therefore reward abstention, since a model can score near-perfect faithfulness by saying almost nothing. We make this measurable using Formula 1 telemetry, a domain where strategic ground truth is derived deterministically and, crucially, completely: for each decision we know the full set of facts that mattered. This completeness -- absent in open-domain faithfulness benchmarks -- lets us measure recall (coverage of the relevant facts) exactly, alongside precision. On a multilingual (EN/ES/PT) benchmark of 7,253 decision instances spanning 150 races, the most precise frontier model covers under half of the relevant facts and ranks last by F1, so requiring coverage reorders the systems; the same effect reappears in a second complete-oracle domain (NOAA weather forecasts). A prompt ablation shows the low coverage is not an under-prompting artifact: explicitly asking models to be thorough does not close the gap. We pair faithfulness with coverage into a single score, validate the metric (controlled perturbation; agreement across a model-free regex extractor and a cross-family LLM extractor, system-level Spearman 1.0), and give a verifier-guided generation method that improves precision and recall without references. We release the benchmark, structured annotations, metric, baselines, and an interactive demo.",
+      "published": "2026-06-08T11:56:25Z",
+      "updated": "2026-06-08T11:56:25Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "primaryCategory": "cs.CL",
+      "abstractUrl": "http://arxiv.org/abs/2606.09376v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.09376v1",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
+    },
+    {
       "id": "2606.09330v1",
       "title": "Dynamic XR Rendering Offloading Based on Feature-Based Quality Assessment",
       "authors": [
@@ -4554,6 +5164,27 @@
       "primaryCategory": "physics.med-ph",
       "abstractUrl": "http://arxiv.org/abs/2606.08618v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.08618v1"
+    },
+    {
+      "id": "2606.08587v1",
+      "title": "Improving the sharpness in neural network-based parametric post-processing of ensemble forecasts",
+      "authors": [
+        "Ágnes Baran",
+        "Máté Mihalina"
+      ],
+      "summary": "Statistical post-processing has proven to be an effective tool in improving ensemble forecast of different weather variables. Case studies show that post-processing can remedy the typically underdispersive and potentially biased behaviour of the ensemble while optimizing a proper scoring rule expressing the forecast skill. The price of these positive effects is generally a deterioration in sharpness; the width of the central prediction intervals and the uncertainty of the predictions are increasing, especially for shorter lead times. This work aims to reduce the extent of the latter phenomenon for neural network-based parametric post-processing methods by extending the network's loss function with a penalty term. We demonstrate the effect of the proposed technique for 2m temperature ensemble forecasts of the European Centre for Medium-Range Weather Forecasts downloaded from the EUPPBench benchmark dataset and verified against synoptic observations. Here, the predictive distribution is Gaussian, and we use the continuous ranked probability score (CRPS) as loss function. The case studies confirm a substantial relative decrease ($8.2\\%-12.5\\%$) in the width of the nominal central prediction interval compared to the width of the predictive distribution computed without the penalty term, while there is no deterioration in the mean CRPS of probabilistic forecasts and in the RMSE of the predictive mean.",
+      "published": "2026-06-07T11:57:09Z",
+      "updated": "2026-06-07T11:57:09Z",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "primaryCategory": "stat.ML",
+      "abstractUrl": "http://arxiv.org/abs/2606.08587v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.08587v1",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
     },
     {
       "id": "2606.08475v1",
@@ -5090,6 +5721,26 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.06725v1"
     },
     {
+      "id": "2606.06348v1",
+      "title": "Performance Evaluation of GraphCast for Medium-Range Weather Forecasting over Brazil",
+      "authors": [
+        "Wolfgang R. Rowell",
+        "Lucas S. Kupssinskü"
+      ],
+      "summary": "The paradigm of global weather forecasting is rapidly shifting with the emergence of Machine Learning Weather Prediction models (MLWP). While these data-driven architectures demonstrate remarkable global skill, regional benchmarks in the Global South remain scarce, leaving their efficacy in complex, highly convective environments largely unverified. This study evaluates the performance of GraphCast operational against the deterministic ECMWF IFS HRES as baseline across four distinct Brazilian climatic sub-regions. Utilizing a scalable, cloud-native pipeline and the WeatherBench-X framework for benchmarking weather models, we assess selected tropospheric variables ($T_{850}$, $Q_{850}$, $Z_{500}$) over four selected seasonal windows, employing the operational IFS analysis as the ground truth to calculate the statistical metrics for both models. Results reveal a regime-dependent skill profile. During the austral winter, GraphCast underperforms in the medium range (lead days 2-7) for $Z_{500}$ when resolving fast-propagating baroclinic systems over southern Brazil, but regains an advantage in the extended range, where its inherent smoothing of chaotic small-scale variability becomes beneficial under deterministic skill metrics. Conversely, during the austral summer wet season, GraphCast accurately captures large-scale moisture transport while intrinsically dampening the high-frequency convective variability that degrades deterministic NWP temperature forecasts. These findings establish a baseline for Brazil and define the specific physical boundaries that will guide future ``tropicalization'' efforts, aiming to optimize these foundational AI models for regional resilience.",
+      "published": "2026-06-04T16:19:29Z",
+      "updated": "2026-06-04T16:19:29Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.LG",
+      "abstractUrl": "http://arxiv.org/abs/2606.06348v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.06348v1",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
+    },
+    {
       "id": "2606.06094v1",
       "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
       "authors": [
@@ -5127,6 +5778,32 @@
       "primaryCategory": "physics.med-ph",
       "abstractUrl": "http://arxiv.org/abs/2606.05628v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.05628v1"
+    },
+    {
+      "id": "2606.04991v1",
+      "title": "Deep Learning with Magnetic Parameter Constraints for Short-Term Prediction of Solar Active Region Vector Magnetic Fields",
+      "authors": [
+        "Yuqing Zhou",
+        "Hui Liu",
+        "Zhenyu Jin",
+        "Yuyang Li",
+        "Sizhong Zou",
+        "Jiaben Lin",
+        "Mingfu Shao",
+        "Zhuoheng Huang"
+      ],
+      "summary": "Forecasting the dynamic evolution of solar magnetic fields is a critical technique for enabling space weather warnings. Addressing the limitations of existing methods in predicting all vector magnetic field components and in maintaining consistency with solar surface magnetic-field-related quantities, this study proposes a deep learning prediction method that integrates dynamic masks of active regions with multiple magnetic parameter constraints. By constructing a three-channel representation of vector magnetic fields, applying dynamic masks to enhance attention to strong-field regions, and incorporating multi-parameter magnetic parameter constraints, we developed an end-to-end short-term (12-hour) predictive model of solar vector magnetic field evolution. Using SDO/SHARP vector magnetogram data, the model predicts and analyses field evolution across all components. Quantitative evaluations demonstrate that our approach achieves horizon-averaged structural similarity index measure (SSIM) of 0.912 (per-hour range: 0.909--0.916) and correlation coefficient (CC) of 0.998 for the radial component Br (root-mean-square error (RMSE) 13.0--21.0 G); the horizontal components achieve Bphi SSIM 0.760--0.800 (CC 0.910--0.945, RMSE 38.5--50.0 G) and Btheta SSIM 0.728--0.750 (CC 0.895--0.920, RMSE 38.5--49.0 G). The model maintains unsigned magnetic flux prediction errors at 7.82% (95% confidence interval (CI): +/-0.11%). These results demonstrate strong image-domain performance together with consistency under the magnetic-parameter diagnostics used here, suggesting initial potential for supporting future space weather forecasting efforts.",
+      "published": "2026-06-03T15:13:00Z",
+      "updated": "2026-06-03T15:13:00Z",
+      "categories": [
+        "astro-ph.SR"
+      ],
+      "primaryCategory": "astro-ph.SR",
+      "abstractUrl": "http://arxiv.org/abs/2606.04991v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.04991v1",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
     },
     {
       "id": "2606.04893v1",
@@ -5211,6 +5888,51 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.03562v1"
     },
     {
+      "id": "2606.02886v2",
+      "title": "Scalable Uncertainty Quantification for Extreme Weather Forecasting via Empirical Neural Tangent Kernels",
+      "authors": [
+        "Jose Marie Antonio Miñoza",
+        "Rex Gregor Laylo",
+        "Sebastian C. Ibañez"
+      ],
+      "summary": "Deep learning weather models now match numerical weather prediction accuracy while running orders of magnitude faster, but produce deterministic forecasts without uncertainty estimates, a critical gap for high-stakes decisions during extreme weather events. This paper proposes Neural Tangent Kernel-based uncertainty quantification (NTK-UQ) using last-layer empirical features. Theoretical analysis predicts that UQ quality is architecture-dependent through two mechanisms. First, a variance collapse mechanism explains when UQ fails: when the eigenvalue truncation rank approaches the effective rank of the feature space, the GP correction term consumes nearly all prior variance, destroying discrimination between tropical cyclones and routine conditions; architectures with concentrated spectra (spectral operators) require aggressive truncation ($k \\leq 10$), while attention-based models tolerate full-rank computation. Second, decomposition performance depends on the non-Gaussian, heavy-tailed structure of extreme weather: Independent Component Analysis exploits higher-order statistics (kurtosis, negentropy) to isolate heavy-tailed extreme-event features, achieving higher discrimination than singular value decomposition, which captures only second-order variance. A data-driven selection rule chooses ICA or SVD from the feature eigenspectrum concentration ratio, correctly prescribing the superior decomposition for all four evaluated architectures. Compared to split conformal prediction (the natural post-hoc baseline), NTK-UQ achieves 31--37\\% sharper prediction intervals at 90\\% coverage, and uniquely produces \\emph{adaptive} intervals that scale with extreme event severity, which conformal prediction cannot achieve by construction. The framework requires no retraining; inference-time uncertainty requires only a single matrix-vector product per sample.",
+      "published": "2026-06-01T20:57:06Z",
+      "updated": "2026-06-03T03:56:35Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CE",
+        "math.PR",
+        "physics.ao-ph"
+      ],
+      "primaryCategory": "cs.LG",
+      "abstractUrl": "http://arxiv.org/abs/2606.02886v2",
+      "pdfUrl": "https://arxiv.org/pdf/2606.02886v2",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
+    },
+    {
+      "id": "2606.02508v1",
+      "title": "AI and physics-based weather forecasting: A comparative study",
+      "authors": [
+        "Mátyás Kocsis",
+        "Sándor Baran"
+      ],
+      "summary": "In the last few years, AI-based models have become the centre of attention in weather forecasting due to their increasing accuracy and efficiency. Pioneering among weather services, ECMWF has developed its Artificial Intelligence Forecasting System (AIFS) model, which was first to provide data-driven ensemble forecasts in June 2024. Since July 2025, the AIFS ensemble model has been operational and runs in parallel with ECMWF's physics-based Integrated Forecasting System (IFS), which is considered the gold standard in weather prediction. The new AIFS model can generate forecasts ten times faster than the classical numerical weather prediction model, while consuming approximately a thousand times less energy. We present the results of our systematic assessment of the performance of the IFS and AIFS models by comparing the accuracy of raw and post-processed medium-range 10-m wind-speed ensemble forecasts generated operationally by the two models for the period between July and November 2025 for more than 9000 synoptic observation stations across the globe. The post-processed case involves the parametric ensemble model output statistics (EMOS) as well as the non-parametric quantile regression (QR) approach to correct any systematic inaccuracies in the raw forecasts. The predictive performance of raw IFS ensemble forecasts proves to be substantially superior to the skill of the raw AIFS predictions for all investigated forecast horizons. As expected, post-processing significantly improves the skill of both IFS and AIFS predictions, and, across most verification metrics, EMOS is superior to QR, especially for short lead times. Compared to the raw ensemble, the differences in skill between the matching IFS and AIFS predictions are substantially decreased by post-processing and are mostly significant at short lead times, when the IFS forecasts outperform their AIFS counterparts.",
+      "published": "2026-06-01T17:21:26Z",
+      "updated": "2026-06-01T17:21:26Z",
+      "categories": [
+        "stat.AP"
+      ],
+      "primaryCategory": "stat.AP",
+      "abstractUrl": "http://arxiv.org/abs/2606.02508v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.02508v1",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
+    },
+    {
       "id": "2606.02044v1",
       "title": "Realistic noise synthesis reduces bias and improves tissue microstructure estimation with supervised machine learning",
       "authors": [
@@ -5233,6 +5955,33 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.02044v1"
     },
     {
+      "id": "2606.02663v1",
+      "title": "AdaWeather: Adaptively Mixing Probabilistic Weather Forecasts with Logarithmic Regret",
+      "authors": [
+        "Saptarishi Dhanuka",
+        "Sarvesh Iyer",
+        "Manmeet Singh",
+        "Mihir More",
+        "Rushil Gupta",
+        "Dhruman Gupta",
+        "Parthasarathi Mukhopadhyay",
+        "Sandeep Juneja"
+      ],
+      "summary": "Recent advances in machine learning have produced probabilistic weather forecasting models comparable to state-of-the-art numerical weather predictors. But no model consistently dominates spatio-temporally, and relative performance is highly context-dependent. This motivates adaptive methods for combining multiple forecasts to obtain improvements and robustness. While combined forecasts have been proposed in the literature, these are achieved either through supervised learning or through prediction with expert advice methods. We introduce AdaWeather, an adaptive framework that combines many probabilistic forecasts using both machine learning as well as mixture of experts to arrive at a unified improved probabilistic forecast. While traditional expert methods develop the regret bounds with respect to the best single expert in hindsight, we extend the algorithm and analysis to show our method has logarithmic regret compared to the best static mixture of experts in hindsight. Empirically, we focus on forecasting temperature, and observe improvements over existing methods.",
+      "published": "2026-06-01T09:46:26Z",
+      "updated": "2026-06-01T09:46:26Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.LG",
+      "abstractUrl": "http://arxiv.org/abs/2606.02663v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.02663v1",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
+    },
+    {
       "id": "2606.00922v1",
       "title": "A Machine-to-Machine Knowledge-Guided LLM Agent for Generalizable Radiotherapy Treatment Planning",
       "authors": [
@@ -5250,6 +5999,29 @@
       "primaryCategory": "physics.med-ph",
       "abstractUrl": "http://arxiv.org/abs/2606.00922v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.00922v1"
+    },
+    {
+      "id": "2605.31204v1",
+      "title": "Probabilistic Precipitation Nowcasting with Rectified Flow Transformers",
+      "authors": [
+        "Johannes Schusterbauer",
+        "Jannik Wiese",
+        "Nick Stracke",
+        "Timy Phan",
+        "Björn Ommer"
+      ],
+      "summary": "Accurate weather forecasts are essential across various domains and are safety-critical in extreme weather conditions. Compared to simulation-based forecasting, data-driven approaches show greater efficiency, enabling short-term, high-resolution nowcasting. In particular, diffusion models proved effective in weather nowcasting due to their strong probabilistic foundation. However, existing methods rely on deterministic compression to reduce the complexity of high-dimensional weather data, limiting their ability to capture uncertainty in the decoding process. In this work, we introduce $\\textbf{FREUD}$, a $\\textbf{Fr}$ame-wise $\\textbf{E}$ncoder and $\\textbf{U}$nited $\\textbf{D}$ecoder model based on rectified flow transformers for efficient compression of spatio-temporal weather data. Frame-wise encoding enables continuous forecast updates, while the unified video decoder ensures temporal consistency. Our uncertainty-preserving first stage allows us to capture aleatoric uncertainty via ensembling, which is particularly beneficial for extreme weather events with high decoding variability. We achieve state-of-the-art performance in precipitation nowcasting with a compact latent-space rectified flow transformer on the SEVIR benchmark and show further performance gains by model and test-time scaling. Code available here: https://github.com/CompVis/weather-rf",
+      "published": "2026-05-29T12:11:05Z",
+      "updated": "2026-05-29T12:11:05Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "primaryCategory": "cs.CV",
+      "abstractUrl": "http://arxiv.org/abs/2605.31204v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.31204v1",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
     },
     {
       "id": "2605.30172v1",
@@ -5290,6 +6062,33 @@
       "primaryCategory": "cs.CE",
       "abstractUrl": "http://arxiv.org/abs/2605.29996v2",
       "pdfUrl": "https://arxiv.org/pdf/2605.29996v2"
+    },
+    {
+      "id": "2605.29976v1",
+      "title": "Evaluating Skill and Stability of ArchesWeather and ArchesWeatherGen under Multi-Decadal Climate Simulations",
+      "authors": [
+        "Renu Singh",
+        "Robert Brunstein",
+        "Antonia Jost",
+        "Thomas Rackow",
+        "Claire Monteleoni",
+        "Yana Hasson",
+        "Christian Lessig",
+        "Guillaume Couairon"
+      ],
+      "summary": "We evaluate the climate simulation capabilities of ArchesWeather and ArchesWeatherGen, two machine learning models originally trained for weather forecasting and evaluated up to a 10-day lead time. ArchesWeather is a deterministic model, while ArchesWeatherGen is a probabilistic flow-matching model leveraging ArchesWeather's forecasts, enabling ensemble-based uncertainty quantification. In this work, we adapt these models to act as forced atmospheric models by using additional conditioning on the monthly mean sea surface temperature (SST) and sea ice cover (SIC) as boundary conditions. In particular, we follow the AI Model Intercomparison Project (AIMIP) Phase 1 protocol, which, analogous to the Atmospheric Model Intercomparison Project (AMIP), proposes a standardized experimental setup to evaluate the climate skill of ML-based forced atmospheric models. We present a comprehensive evaluation of both models under these conditions, including comparison against numerical climate models, ablation studies that examine key design choices in the extension, and an analysis of forced versus unforced configurations. Despite being originally developed for weather forecasting, we demonstrate that forced configurations of ArchesWeather and ArchesWeatherGen produce stable long-term climate simulations, have a stable annual cycle, and capture the drift of many climate variables. The models faithfully reproduce ERA5's climatology, large-scale circulations and interannual variability, and they capture the tails of the distributions.",
+      "published": "2026-05-28T14:15:25Z",
+      "updated": "2026-05-28T14:15:25Z",
+      "categories": [
+        "physics.ao-ph",
+        "cs.AI"
+      ],
+      "primaryCategory": "physics.ao-ph",
+      "abstractUrl": "http://arxiv.org/abs/2605.29976v1",
+      "pdfUrl": "https://arxiv.org/pdf/2605.29976v1",
+      "matchedTopics": [
+        "topic:weather-forecasting"
+      ]
     }
   ]
 }
