@@ -12,7 +12,7 @@ Open `index.html` in a browser, or serve the folder with any static web server.
 2. Open the repository on GitHub.
 3. Go to `Settings` -> `Pages`.
 4. Set `Source` to `GitHub Actions`.
-5. Go to `Actions` and run the workflow named `Update papers` once. This fills `Github/papers.json` and deploys the `Github/` folder.
+5. Go to `Actions` and run the workflow named `Update papers` once. This fills `papers.json` and deploys the repository root.
 6. GitHub will publish the site at the Pages URL shown in the workflow summary and Pages settings.
 
 ## Notes

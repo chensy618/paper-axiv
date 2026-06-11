@@ -2,7 +2,7 @@ name: Update papers
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
   schedule:
     - cron: "17 6 * * *"
@@ -27,13 +27,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Fetch recent arXiv papers
-        run: python3 Github/scripts/fetch_papers.py --output Github/papers.json --days 14 --per-category 30
+        run: python3 scripts/fetch_papers.py --output papers.json --days 14 --per-category 30
 
       - name: Commit updated papers
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update arXiv papers"
-          file_pattern: Github/papers.json
+          file_pattern: papers.json
 
       - name: Set up Pages
         uses: actions/configure-pages@v5
@@ -41,7 +41,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: Github
+          path: .
 
       - name: Deploy to GitHub Pages
         id: deployment
