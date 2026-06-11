@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paper Axiv</title>
+    <link rel="preconnect" href="https://export.arxiv.org">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="search-panel" aria-labelledby="app-title">
+        <div class="brand-row">
+          <div>
+            <p class="eyebrow">arXiv paper finder</p>
+            <h1 id="app-title">Fresh papers, fast.</h1>
+          </div>
+          <span class="status-pill" id="connectionStatus">Ready</span>
+        </div>
+
+        <form id="paperForm" class="controls">
+          <label>
+            <span>Search terms</span>
+            <input
+              id="queryInput"
+              name="query"
+              type="search"
+              value="machine learning"
+              autocomplete="off"
+              placeholder="e.g. graph neural networks, diffusion, quantum"
+            >
+          </label>
+
+          <div class="control-grid">
+            <label>
+              <span>Category</span>
+              <select id="categoryInput" name="category">
+                <option value="">All categories</option>
+                <option value="cs.AI">Artificial Intelligence</option>
+                <option value="cs.CL">Computation and Language</option>
+                <option value="cs.CV">Computer Vision</option>
+                <option value="cs.LG" selected>Machine Learning</option>
+                <option value="cs.RO">Robotics</option>
+                <option value="eess.IV">Image and Video Processing</option>
+                <option value="math.OC">Optimization and Control</option>
+                <option value="physics.med-ph">Medical Physics</option>
+                <option value="q-bio.QM">Quantitative Methods</option>
+                <option value="stat.ML">Statistics Machine Learning</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Results</span>
+              <select id="limitInput" name="limit">
+                <option>10</option>
+                <option selected>25</option>
+                <option>50</option>
+                <option>100</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Submitted since</span>
+              <input id="sinceInput" name="since" type="date">
+            </label>
+          </div>
+
+          <div class="actions">
+            <button type="submit">Fetch papers</button>
+            <button id="resetButton" class="secondary" type="button">Reset</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="results-panel" aria-live="polite">
+        <div class="results-header">
+          <div>
+            <p class="eyebrow">Latest matches</p>
+            <h2 id="resultsTitle">No papers loaded yet</h2>
+          </div>
+          <button id="copyButton" class="secondary small" type="button" disabled>Copy list</button>
+        </div>
+
+        <div id="message" class="message">
+          Choose a topic and fetch the newest arXiv papers. Results include abstracts, authors, categories, PDF links, and published dates.
+        </div>
+
+        <div id="papers" class="paper-list"></div>
+      </section>
+    </main>
+
+    <template id="paperTemplate">
+      <article class="paper-card">
+        <div class="paper-topline">
+          <span class="date"></span>
+          <span class="category"></span>
+        </div>
+        <h3></h3>
+        <p class="authors"></p>
+        <p class="summary"></p>
+        <div class="paper-links">
+          <a class="abstract-link" target="_blank" rel="noreferrer">Abstract</a>
+          <a class="pdf-link" target="_blank" rel="noreferrer">PDF</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
