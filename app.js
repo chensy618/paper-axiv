@@ -14,6 +14,13 @@ const connectionStatus = document.querySelector("#connectionStatus");
 let storedPapers = [];
 let currentPapers = [];
 
+const topicQueries = {
+  "topic:weather-forecasting": ["weather forecasting", "weather forecast", "meteorology"],
+  "topic:microclimate-modelling": ["microclimate modelling", "microclimate modeling", "urban microclimate"],
+  "topic:vision-language": ["vision-language", "vision language", "multimodal"],
+  "topic:llm": ["large language model", "LLM", "language model"]
+};
+
 const defaultSince = new Date();
 defaultSince.setDate(defaultSince.getDate() - 14);
 sinceInput.value = defaultSince.toISOString().slice(0, 10);
@@ -105,7 +112,28 @@ function matchesQuery(paper, query) {
 }
 
 function matchesCategory(paper, category) {
-  return !category || paper.categories.includes(category) || paper.primaryCategory === category;
+  if (!category) {
+    return true;
+  }
+
+  if (category.startsWith("topic:")) {
+    return matchesTopic(paper, category);
+  }
+
+  return paper.categories.includes(category) || paper.primaryCategory === category;
+}
+
+function matchesTopic(paper, topic) {
+  if (paper.matchedTopics.includes(topic)) {
+    return true;
+  }
+
+  const terms = topicQueries[topic] || [];
+  const searchable = [paper.title, paper.summary, paper.authors.join(" "), paper.categories.join(" ")]
+    .join(" ")
+    .toLowerCase();
+
+  return terms.some((term) => searchable.includes(term.toLowerCase()));
 }
 
 async function fetchLiveFallback() {
@@ -153,7 +181,14 @@ function buildArxivUrl({ query, category, limit, since }) {
   }
 
   if (category) {
-    searchParts.push(`cat:${category}`);
+    if (category.startsWith("topic:")) {
+      const topicTerms = topicQueries[category] || [];
+      if (topicTerms.length) {
+        searchParts.push(`all:"${topicTerms[0]}"`);
+      }
+    } else {
+      searchParts.push(`cat:${category}`);
+    }
   }
 
   const params = new URLSearchParams({
@@ -228,6 +263,7 @@ function normalizePapers(papers) {
       authors: Array.isArray(paper.authors) ? paper.authors : [],
       summary: cleanText(paper.summary),
       categories: Array.isArray(paper.categories) ? paper.categories : [],
+      matchedTopics: Array.isArray(paper.matchedTopics) ? paper.matchedTopics : [],
       primaryCategory: paper.primaryCategory || paper.categories?.[0] || "",
       abstractUrl: paper.abstractUrl || `https://arxiv.org/abs/${paper.id}`,
       pdfUrl: paper.pdfUrl || `https://arxiv.org/pdf/${paper.id}`

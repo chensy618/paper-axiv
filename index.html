@@ -36,16 +36,24 @@
               <span>Category</span>
               <select id="categoryInput" name="category">
                 <option value="">All categories</option>
-                <option value="cs.AI">Artificial Intelligence</option>
-                <option value="cs.CL">Computation and Language</option>
-                <option value="cs.CV">Computer Vision</option>
-                <option value="cs.LG" selected>Machine Learning</option>
-                <option value="cs.RO">Robotics</option>
-                <option value="eess.IV">Image and Video Processing</option>
-                <option value="math.OC">Optimization and Control</option>
-                <option value="physics.med-ph">Medical Physics</option>
-                <option value="q-bio.QM">Quantitative Methods</option>
-                <option value="stat.ML">Statistics Machine Learning</option>
+                <optgroup label="Topics">
+                  <option value="topic:weather-forecasting">Weather Forecasting</option>
+                  <option value="topic:microclimate-modelling">Microclimate Modelling</option>
+                  <option value="cs.CV">Computer Vision</option>
+                  <option value="topic:vision-language">Vision-Language</option>
+                  <option value="topic:llm">LLM</option>
+                </optgroup>
+                <optgroup label="arXiv categories">
+                  <option value="cs.AI">Artificial Intelligence</option>
+                  <option value="cs.CL">Computation and Language</option>
+                  <option value="cs.LG" selected>Machine Learning</option>
+                  <option value="cs.RO">Robotics</option>
+                  <option value="eess.IV">Image and Video Processing</option>
+                  <option value="math.OC">Optimization and Control</option>
+                  <option value="physics.med-ph">Medical Physics</option>
+                  <option value="q-bio.QM">Quantitative Methods</option>
+                  <option value="stat.ML">Statistics Machine Learning</option>
+                </optgroup>
               </select>
             </label>
 

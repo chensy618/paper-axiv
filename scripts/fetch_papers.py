@@ -27,6 +27,12 @@ DEFAULT_CATEGORIES = [
     "q-bio.QM",
     "stat.ML",
 ]
+DEFAULT_TOPIC_QUERIES = {
+    "topic:weather-forecasting": 'all:"weather forecasting" OR all:"weather forecast" OR all:"numerical weather prediction"',
+    "topic:microclimate-modelling": 'all:"microclimate modelling" OR all:"microclimate modeling" OR all:"urban microclimate"',
+    "topic:vision-language": 'all:"vision-language" OR all:"vision language" OR all:"vision-language model"',
+    "topic:llm": 'all:"large language model" OR all:"LLM" OR all:"language model"',
+}
 
 
 def main() -> None:
@@ -36,10 +42,12 @@ def main() -> None:
     parser.add_argument("--per-category", type=int, default=25)
     parser.add_argument("--pause", type=float, default=3.2)
     parser.add_argument("--category", action="append", dest="categories")
+    parser.add_argument("--topic-query", action="append", dest="topic_queries")
     args = parser.parse_args()
 
     since = datetime.now(timezone.utc) - timedelta(days=args.days)
     categories = args.categories or DEFAULT_CATEGORIES
+    topic_queries = parse_topic_queries(args.topic_queries) or DEFAULT_TOPIC_QUERIES
     papers_by_id: dict[str, dict] = {}
 
     for index, category in enumerate(categories):
@@ -48,12 +56,22 @@ def main() -> None:
         for paper in fetch_category(category, args.per_category, since):
             papers_by_id[paper["id"]] = paper
 
+    for index, (topic, query) in enumerate(topic_queries.items()):
+        if categories or index:
+            time.sleep(args.pause)
+        for paper in fetch_query(query, args.per_category, since):
+            current = papers_by_id.setdefault(paper["id"], paper)
+            current.setdefault("matchedTopics", [])
+            if topic not in current["matchedTopics"]:
+                current["matchedTopics"].append(topic)
+
     papers = sorted(papers_by_id.values(), key=lambda item: item["published"], reverse=True)
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source": "https://export.arxiv.org/api/query",
         "days": args.days,
         "categories": categories,
+        "topicQueries": topic_queries,
         "papers": papers,
     }
 
@@ -62,9 +80,13 @@ def main() -> None:
 
 
 def fetch_category(category: str, limit: int, since: datetime) -> list[dict]:
+    return fetch_query(f"cat:{category}", limit, since)
+
+
+def fetch_query(search_query: str, limit: int, since: datetime) -> list[dict]:
     params = urllib.parse.urlencode(
         {
-            "search_query": f"cat:{category}",
+            "search_query": search_query,
             "start": "0",
             "max_results": str(limit),
             "sortBy": "submittedDate",
@@ -80,6 +102,19 @@ def fetch_category(category: str, limit: int, since: datetime) -> list[dict]:
     root = ET.fromstring(xml)
     papers = [parse_entry(entry) for entry in root.findall(f"{ATOM}entry")]
     return [paper for paper in papers if parse_date(paper["published"]) >= since]
+
+
+def parse_topic_queries(values: list[str] | None) -> dict[str, str]:
+    if not values:
+        return {}
+
+    queries = {}
+    for value in values:
+        topic, separator, query = value.partition("=")
+        if not separator or not topic.strip() or not query.strip():
+            raise ValueError("--topic-query must use the form topic-key=arxiv-search-query")
+        queries[topic.strip()] = query.strip()
+    return queries
 
 
 def parse_entry(entry: ET.Element) -> dict:
