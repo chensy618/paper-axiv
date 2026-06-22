@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T10:04:56+00:00",
+  "generatedAt": "2026-06-22T12:25:33+00:00",
   "source": "https://export.arxiv.org/api/query",
   "days": 14,
   "categories": [
@@ -6595,46 +6595,6 @@
       "primaryCategory": "physics.med-ph",
       "abstractUrl": "http://arxiv.org/abs/2606.09497v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.09497v1"
-    },
-    {
-      "id": "2606.09376v2",
-      "title": "Precision Is Not Faithfulness: Coverage-Aware Evaluation of Grounded Generation with a Complete Oracle",
-      "authors": [
-        "Juan S. Santillana"
-      ],
-      "summary": "Reference-free faithfulness metrics verify each atomic claim a model makes against ground truth, and are increasingly used to evaluate grounded generation. We show they share a blind spot: they measure only precision -- are the stated claims supported? -- and therefore reward abstention, since a model can score near-perfect faithfulness by saying almost nothing. We make this measurable using Formula 1 telemetry, a domain where strategic ground truth is derived deterministically and, crucially, completely: for each decision we know the full set of facts that mattered. This completeness -- absent in open-domain faithfulness benchmarks -- lets us measure recall (coverage of the relevant facts) exactly, alongside precision. On a multilingual (EN/ES/PT) benchmark of 7,253 decision instances spanning 157 races, the most precise frontier model covers under half of the relevant facts and ranks last by F1, so requiring coverage reorders the systems; the same effect reappears in a second complete-oracle domain (NOAA weather forecasts). Fine-tuning small models (1B-7B) on the complete oracle closes the precision-recall gap entirely (F1 ~0.98), beating every zero-shot frontier system regardless of scale. We pair faithfulness with coverage into a single score, validate the metric (controlled perturbation; agreement across a model-free regex extractor and a cross-family LLM extractor, system-level Spearman 1.0), and give a verifier-guided generation method that improves precision and recall without references. We release the benchmark, structured annotations, metric, baselines, and an interactive demo.",
-      "published": "2026-06-08T11:56:25Z",
-      "updated": "2026-06-16T02:01:49Z",
-      "categories": [
-        "cs.CL"
-      ],
-      "primaryCategory": "cs.CL",
-      "abstractUrl": "http://arxiv.org/abs/2606.09376v2",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09376v2",
-      "matchedTopics": [
-        "topic:weather-forecasting"
-      ]
-    },
-    {
-      "id": "2606.08587v1",
-      "title": "Improving the sharpness in neural network-based parametric post-processing of ensemble forecasts",
-      "authors": [
-        "Ágnes Baran",
-        "Máté Mihalina"
-      ],
-      "summary": "Statistical post-processing has proven to be an effective tool in improving ensemble forecast of different weather variables. Case studies show that post-processing can remedy the typically underdispersive and potentially biased behaviour of the ensemble while optimizing a proper scoring rule expressing the forecast skill. The price of these positive effects is generally a deterioration in sharpness; the width of the central prediction intervals and the uncertainty of the predictions are increasing, especially for shorter lead times. This work aims to reduce the extent of the latter phenomenon for neural network-based parametric post-processing methods by extending the network's loss function with a penalty term. We demonstrate the effect of the proposed technique for 2m temperature ensemble forecasts of the European Centre for Medium-Range Weather Forecasts downloaded from the EUPPBench benchmark dataset and verified against synoptic observations. Here, the predictive distribution is Gaussian, and we use the continuous ranked probability score (CRPS) as loss function. The case studies confirm a substantial relative decrease ($8.2\\%-12.5\\%$) in the width of the nominal central prediction interval compared to the width of the predictive distribution computed without the penalty term, while there is no deterioration in the mean CRPS of probabilistic forecasts and in the RMSE of the predictive mean.",
-      "published": "2026-06-07T11:57:09Z",
-      "updated": "2026-06-07T11:57:09Z",
-      "categories": [
-        "stat.ML",
-        "cs.LG"
-      ],
-      "primaryCategory": "stat.ML",
-      "abstractUrl": "http://arxiv.org/abs/2606.08587v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.08587v1",
-      "matchedTopics": [
-        "topic:weather-forecasting"
-      ]
     }
   ]
 }
