@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T09:35:00+00:00",
+  "generatedAt": "2026-07-04T08:50:15+00:00",
   "source": "https://export.arxiv.org/api/query",
   "days": 14,
   "categories": [
@@ -6273,47 +6273,6 @@
       "primaryCategory": "physics.med-ph",
       "abstractUrl": "http://arxiv.org/abs/2606.23100v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.23100v1"
-    },
-    {
-      "id": "2606.21713v1",
-      "title": "Adaptive Beam Selection for Efficient Scanning Probe Tomography",
-      "authors": [
-        "San Dinh",
-        "Zichao Wendy Di",
-        "Matt Menickelly"
-      ],
-      "summary": "In X-ray tomography, reconstruction quality generally improves with larger numbers of projections. However, more projections increase experiment costs, acquisition time and the radiation dose imparted to the sample. One mitigation to these trade-offs is to adopt a sequential design of experiments, in which each subsequent measurement is determined as a function of previously acquired data in order to maximize information gain. In practice, a widely used heuristic to maximize information is to align beams with the edges of the sample. A key challenge, however, is that the true sample is unknown, so identifying edge-aligned beams typically requires reconstructing the sample based on available measurements. This work proposes a novel sequential design method that identifies edge-aligned measurements directly from the sinogram, bypassing any reconstruction, thereby improving computational efficiency and reducing the experimental design's susceptibility to reconstruction errors. Our method dynamically selects the next set of measurement beams by maximizing an acquisition function that balances exploration and exploitation over the domain of all possible measurements, improving reconstruction quality while reducing measurement redundancy.",
-      "published": "2026-06-19T19:58:27Z",
-      "updated": "2026-06-19T19:58:27Z",
-      "categories": [
-        "physics.med-ph",
-        "cs.CV"
-      ],
-      "primaryCategory": "physics.med-ph",
-      "abstractUrl": "http://arxiv.org/abs/2606.21713v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.21713v1"
-    },
-    {
-      "id": "2606.21701v1",
-      "title": "ARCO-Mars: A Unified Cloud-Optimized Archive of Mars Atmosphere Reanalysis",
-      "authors": [
-        "Ananyo Bhattacharya"
-      ],
-      "summary": "Long-term records of the Martian atmosphere based on general circulation models and reanalysis of atmospheric state variables are important to understand the diurnal, seasonal, and climatological changes of the planet. Atmospheric dynamics of the Martian atmosphere are strongly influenced by the characterization of dust lifting, solar insolation, and spatial variations in topography. We present ARCO-Mars, a unified Analysis-Ready Cloud-Optimized dataset providing integrated access to three independent Mars atmospheric reanalysis products: EMARS, MACDA, and OpenMARS spanning over Mars Years 24-35. These reanalyses assimilate thermal infrared retrievals from the MGS/TES, ODY/THEMIS, and MRO/MCS instruments, providing both two and three-dimensional surface and atmospheric state variables, including temperature, winds, surface pressure, and dust optical depth. The dataset is stored in Zarr v3 format and hosted on HuggingFace, enabling efficient cloud-based access without requiring local storage of the full archive. We compare the state variables between the three reanalysis products to identify systematic differences, attributed to differences in data assimilation and general circulation models. ARCO-Mars provides a community resource for Mars atmospheric science, numerical weather prediction validation, and machine learning applications, including weather forecasting and data assimilation.",
-      "published": "2026-06-19T19:18:52Z",
-      "updated": "2026-06-19T19:18:52Z",
-      "categories": [
-        "astro-ph.EP",
-        "astro-ph.IM",
-        "cs.DB",
-        "cs.LG"
-      ],
-      "primaryCategory": "astro-ph.EP",
-      "abstractUrl": "http://arxiv.org/abs/2606.21701v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.21701v1",
-      "matchedTopics": [
-        "topic:weather-forecasting"
-      ]
     }
   ]
 }
