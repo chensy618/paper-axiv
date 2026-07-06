@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T09:21:52+00:00",
+  "generatedAt": "2026-07-06T11:01:12+00:00",
   "source": "https://export.arxiv.org/api/query",
   "days": 14,
   "categories": [
@@ -6250,29 +6250,6 @@
       "primaryCategory": "physics.optics",
       "abstractUrl": "http://arxiv.org/abs/2606.23223v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.23223v1"
-    },
-    {
-      "id": "2606.23100v1",
-      "title": "A Positron Range Correction with Texture Preservation Framework in PET Imaging",
-      "authors": [
-        "Nerea Encina-Baranda",
-        "Yifan Zheng",
-        "Jorge Cabello",
-        "Robert. J. Paneque-Yunta",
-        "Cindy. M. Solano-Cordero",
-        "Alejandro Lopez-Montes",
-        "Maurizio Conti",
-        "Joaquin. L. Herraiz"
-      ],
-      "summary": "Positron range (PR) blurring is a fundamental resolution limitation in PET imaging with high-energy positron emitters such as 82Rb, causing contrast loss and spill-out effects across heterogeneous tissue interfaces. We propose PRC-TP, a positron range correction (PRC) framework with explicit texture preservation that decouples deterministic resolution recovery from stochastic texture restoration. A nnFormer-based neural network (NN) was trained on patient-derived Monte Carlo simulations to map PR-degraded 82Rb reconstructions to PR-free references using attenuation maps as anatomical context. However, this NN also significantly removed the noise in the images, which could impact some texture analysis methods or make the images look unrealistic. An auxiliary Noise2Noise model estimates that smoothing effect, enabling texture extraction and transfer to the PR-corrected prediction through Model-consistent Texture Re-Injection (MTRI). In simulated patients, PRC-TP preserved contrast recovery close to ground truth (GT) (98.96-99.04%) while restoring noise and CNR closer to the reference. The function-based MTRI formulation achieved near unity global texture amplitude agreement with GT (0.997 +/- 0.011), reducing the input texture amplitude bias (0.951 +/- 0.011). Radiomics analysis showed improved agreement with GT across texture-sensitive feature families. A clinical 82Rb evaluation showed trends consistent with simulations, including comparable contrast-ratio increase (10.18% vs. 10.99%) and restoration of texture suppressed by PRC. These results support PRC-TP as a practical framework for resolution recovery with acquisition-consistent texture preservation in PET imaging. Submitted to IEEE TRPMS.",
-      "published": "2026-06-22T09:43:28Z",
-      "updated": "2026-06-22T09:43:28Z",
-      "categories": [
-        "physics.med-ph"
-      ],
-      "primaryCategory": "physics.med-ph",
-      "abstractUrl": "http://arxiv.org/abs/2606.23100v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.23100v1"
     }
   ]
 }
