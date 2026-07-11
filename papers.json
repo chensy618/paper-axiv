@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T09:51:58+00:00",
+  "generatedAt": "2026-07-11T08:14:03+00:00",
   "source": "https://export.arxiv.org/api/query",
   "days": 14,
   "categories": [
@@ -6574,32 +6574,6 @@
       "primaryCategory": "physics.med-ph",
       "abstractUrl": "http://arxiv.org/abs/2606.29421v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.29421v1"
-    },
-    {
-      "id": "2606.27970v1",
-      "title": "A Beamforming Microwave Interferometric Radiometer for High-resolution Passive Imaging: Concept, Modeling, and Preliminary Demonstration",
-      "authors": [
-        "Ziyang Zhang",
-        "Hao Liu",
-        "Donghao Han",
-        "Te Wang",
-        "Jiyi Bian",
-        "Bingxu Li",
-        "Xing Tong",
-        "Mengyao Jiang"
-      ],
-      "summary": "High-resolution passive microwave imaging is important for numerical weather prediction, disaster monitoring, and oceanographic studies, but kilometer-level spatial resolution remains difficult to achieve because of aperture limitations and the high complexity of large interferometric arrays. This paper proposes a beamforming microwave interferometric radiometer (BF-MIR) for high-resolution passive microwave imaging. BF-MIR employs beamforming-capable antennas as interferometric elements in a large sparse array. The enlarged spatial-frequency sampling interval reduces the required number of elements and the cross-correlation burden, while a large aperture-to-sampling-interval ratio factor (ASRF) array design enables narrow-beam spatial filtering to suppress brightness temperature (TB) aliasing caused by spatial-frequency under sampling. In addition, beamforming enables dynamic beam steering across multiple pointing directions, thereby compensating for the limited instantaneous coverage of narrow beams. A beamforming interferometric imaging model is established, and the relationships among spatial resolution, radiometric sensitivity, and effective field of view are analyzed. An image-domain Shift-Accumulate method is further introduced to analyze aliasing, based on which an aliasing suppression strategy is developed. In addition, a three-element proof-of-concept prototype provides preliminary experimental validation of dynamic beam interferometric measurement and dynamic beam observation modes. These results indicate that BF-MIR is a promising architecture for further spaceborne high-resolution passive microwave imaging.",
-      "published": "2026-06-26T11:17:38Z",
-      "updated": "2026-06-26T11:17:38Z",
-      "categories": [
-        "eess.SP"
-      ],
-      "primaryCategory": "eess.SP",
-      "abstractUrl": "http://arxiv.org/abs/2606.27970v1",
-      "pdfUrl": "https://arxiv.org/pdf/2606.27970v1",
-      "matchedTopics": [
-        "topic:weather-forecasting"
-      ]
     }
   ]
 }
