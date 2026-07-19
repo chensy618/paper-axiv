@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T08:06:57+00:00",
+  "generatedAt": "2026-07-19T08:32:01+00:00",
   "source": "https://export.arxiv.org/api/query",
   "days": 14,
   "categories": [
@@ -6276,65 +6276,6 @@
       "primaryCategory": "eess.SP",
       "abstractUrl": "http://arxiv.org/abs/2607.04211v1",
       "pdfUrl": "https://arxiv.org/pdf/2607.04211v1"
-    },
-    {
-      "id": "2607.03940v1",
-      "title": "Beam monitoring for radiotherapy from conventional to FLASH dose rates using Low Gain Avalanche Silicon detectors",
-      "authors": [
-        "Cristhian Cadena",
-        "Antonio Cota Rodriguez",
-        "Tonatiuh García Chávez",
-        "Yao Hao",
-        "Rachel Kovach-Fuentes",
-        "Harold Li",
-        "Wei Li",
-        "Javier A. Murillo Quijada",
-        "Saul Anibal Rodríguez Ramírez",
-        "Christophe Royon",
-        "Emil Schueler",
-        "Brett D. Velasquez",
-        "Pablo Yepes"
-      ],
-      "summary": "We report the performance of low gain avalanche Silicon detectors (LGADs) for instantaneous electron and proton beam monitoring across dose rates ranging from conventional radiotherapy to the FLASH regime, benefiting from the fast response of these detectors of a few nanoseconds. The beam sources provide a dose rate greater than 40~Gy/s through pulses of widths 0.5, 1, 2 and 3~$μ$s for electron beams and 3, 5, 10 $μ$s for proton beams. Two different LGAD devices and silicon diodes are tested, yielding a linear dose response for electron beams up to $\\sim$450~Gy/s and for proton beams up to $\\sim$12~Gy/s. Beyond the linear regime the response continues to increase with a reduced slope and no true signal plateau is observed, at least up to 1800 Gy/s for electrons and 150 Gy/s for protons. This study contributes towards the instantaneous monitoring of increasingly intense flash beams for radiotherapy using fast detectors such as LGADs since measurements can be performed every fraction of $μ$s.",
-      "published": "2026-07-04T16:26:11Z",
-      "updated": "2026-07-04T16:26:11Z",
-      "categories": [
-        "physics.med-ph",
-        "hep-ex"
-      ],
-      "primaryCategory": "physics.med-ph",
-      "abstractUrl": "http://arxiv.org/abs/2607.03940v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.03940v1"
-    },
-    {
-      "id": "2607.03931v1",
-      "title": "GLOW-FDG: Generalized cancer LesiOn Whole-body segmentation model for $^{18}$F-FDG-PET/CT",
-      "authors": [
-        "Maksym Fritsak",
-        "Maximilian Rokuss",
-        "Hubert S. Gabryś",
-        "Yannick Kirchhoff",
-        "Benjamin Hamm",
-        "Sebastian M. Christ",
-        "Nicolas Martz",
-        "Isabelle Opitz",
-        "Rolf Stahel",
-        "Martin Hüllner",
-        "Matthias Guckenberger",
-        "Klaus Maier-Hein",
-        "Stephanie Tanadini-Lang"
-      ],
-      "summary": "Whole-body fluorodeoxyglucose positron emission tomography combined with computed tomography is widely used in cancer care, but manual lesion delineation is slow, subjective, and difficult to scale. We present GLOW-FDG, an open-source artificial intelligence model for whole-body cancer lesion segmentation in fluorodeoxyglucose positron emission tomography and computed tomography. The model was trained on 1,563 scans spanning multiple cancer types and evaluated on 185 external scans from independent institutions. Across breast cancer, nonmetastatic and oligometastatic lung cancer, head and neck cancer, and metastatic melanoma, GLOW-FDG consistently outperformed publicly available benchmark models in lesion detection, while reducing false positives and maintaining strong segmentation accuracy. Quantification of total tumor burden and total lesion glycolysis was robust across cohorts, and performance approached the variability observed between expert radiation oncologists. These results support GLOW-FDG as a generalizable tool for automated cancer segmentation and quantitative imaging biomarker extraction in whole-body imaging.",
-      "published": "2026-07-04T15:51:28Z",
-      "updated": "2026-07-04T15:51:28Z",
-      "categories": [
-        "eess.IV",
-        "cs.CV",
-        "physics.med-ph"
-      ],
-      "primaryCategory": "eess.IV",
-      "abstractUrl": "http://arxiv.org/abs/2607.03931v1",
-      "pdfUrl": "https://arxiv.org/pdf/2607.03931v1"
     }
   ]
 }
